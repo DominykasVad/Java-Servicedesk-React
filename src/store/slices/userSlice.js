@@ -26,22 +26,22 @@ const userSlice = createSlice({
     }
 });
 
-let prevUser = initialState
+let prevUser = initialState;
 
 export const subscribeToUser = (store) => {
     store.subscribe(_.throttle(() => {
 
-        const currentUser = store.getState().user
+        const currentUser = store.getState().user;
 
         if (prevUser !== currentUser) {
-            prevUser = currentUser
-            saveToStorage('user', currentUser)
+            prevUser = currentUser;
+            saveToStorage('user', currentUser);
         }
 
-    }, 1000))
-}
+    }, 1000));
+};
 
-export const loadUserFromStorage = () => loadFromStorage('user')
+export const loadUserFromStorage = () => loadFromStorage('user');
 
 export default userSlice.reducer;
 export const {setUserData, setJwt, removeUserData, removeJwt} = userSlice.actions;

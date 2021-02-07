@@ -4,15 +4,15 @@ import user, {loadUserFromStorage, subscribeToUser} from './slices/userSlice';
 
 export const createStore = (initialState) => {
 
-	const store = configureStore({
-		reducer: {
-			user
-		},
-		middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
-		preloadedState: {user: loadUserFromStorage(), ...initialState}
-	})
-	subscribeToUser(store)
-	return store
-}
+    const store = configureStore({
+        reducer: {
+            user
+        },
+        middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+        preloadedState: {user: loadUserFromStorage(), ...initialState}
+    });
+    subscribeToUser(store);
+    return store;
+};
 
-export default createStore()
+export default createStore();
