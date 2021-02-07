@@ -1,0 +1,56 @@
+{
+  "common": {
+    "language": "Lietuvių",
+    "title": "Service Desk",
+    "footer": "Graži paraštė",
+    "main": {
+      "loginTitle": "Prisijungimas",
+      "signIn": "Prisijungti",
+      "username": "Prisijungimo vardas",
+      "password": "Slaptažodis",
+      "loginFailed": "Prisijungti nepavyko",
+      "404NotFound": "Puslapis nerastas",
+      "goBack": "Eiti atgal"
+    },
+    "labels": {
+      "noRowsLabel": "Nėra duomenų",
+      "summary": "Santrauka",
+      "description": "Aprašymas",
+      "status": "Statusas",
+      "organizationalUnit": "Organizacinis vienetas",
+      "reportedBy": "Pranešėjas",
+      "serialNumber": "Serijinis numeris",
+      "inventoryNumber": "Inventoriaus numeris",
+      "vendor": "Gamintojas",
+      "model": "Modelis",
+      "newServiceRequest": "Nauja Pauslaugos užklausa",
+      "owner": "Savininkas",
+      "registered": "Registruota",
+      "started": "Pradėta",
+      "closed": "Uždaryta",
+      "serviceRequest": "Paslaugos užklausa",
+      "details": "Detalės",
+      "name": "Vardas",
+      "surname": "Pavardė",
+      "email": "El. Paštas",
+      "phone": "Telefono numeris",
+      "role": "Rolė",
+      "newUser": "Naujas vartotojas"
+    },
+    "buttons": {
+      "dashboard": "Pagrindinis skydas",
+      "serviceRequests": "Paslaugų užklausos",
+      "configurationItems": "CI",
+      "users": "Vartotojai",
+      "save": "Išsaugoti",
+      "startWork": "Pradėti darbą",
+      "resolve": "Išspręsti",
+      "takeOwnership": "Perimti darbą",
+      "linkCi": "Pridėti CI",
+      "unlinkCi": "Išsimti CI",
+      "close": "Uždaryti",
+      "delete": "Ištrinti",
+      "logout": "Atsijungti"
+    }
+  }
+}
