@@ -34,7 +34,9 @@ const SingleServiceRequestContent = ({
     const {t} = useTranslation();
 
     const authorized = (role) => {
-        return !!_.intersection(user.roles.map(x => x.roleName), Array.of(role)).length;
+        if (!_.isNil(user)) {
+            return !!_.intersection(user.roles.map(x => x.roleName), Array.of(role)).length;
+        }
     };
 
 
