@@ -27,7 +27,9 @@
     "react-scripts": "4.0.1",
     "redux-logger": "^3.0.6",
     "web-vitals": "^0.2.4",
-    "yup": "^0.32.8"
+    "yup": "^0.32.8",
+    "clsx": "^1.1.1",
+    "prop-types": "^15.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,7 +56,5 @@
     ]
   },
   "devDependencies": {
-    "clsx": "^1.1.1",
-    "prop-types": "^15.7.2"
   }
 }
