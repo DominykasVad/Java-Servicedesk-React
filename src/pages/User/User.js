@@ -1,12 +1,10 @@
 import {useHistory} from 'react-router';
 import {useEffect, useState} from 'react';
-import {fetchServiceRequestsByOwnerId} from '../../api/serviceRequestApi';
 import {Container, Grid, Paper} from '@material-ui/core';
 import CustomDataGrid from '../../components/CustomDataGrid/CustomDataGrid';
 import {useSnackbar} from 'notistack';
 import {userStyles} from './userStyles';
 import {fetchAllUsers} from '../../api/usersApi';
-import {useLocation} from 'react-router-dom';
 import {useTranslation} from 'react-i18next';
 
 
