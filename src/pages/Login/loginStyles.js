@@ -1,4 +1,5 @@
 import {makeStyles} from '@material-ui/core';
+import {deepOrange} from '@material-ui/core/colors';
 
 const loginStyles = makeStyles((theme) => ({
     paper: {
@@ -10,7 +11,7 @@ const loginStyles = makeStyles((theme) => ({
     },
     avatar: {
         margin: theme.spacing(1),
-        backgroundColor: theme.palette.secondary.main,
+        backgroundColor: deepOrange[500],
     },
     form: {
         width: '100%', // Fix IE 11 issue.
